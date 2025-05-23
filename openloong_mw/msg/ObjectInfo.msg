@@ -1,0 +1,15 @@
+string name
+int8 clss
+geometry_msgs/Pose pose_left
+geometry_msgs/Pose pose_left_app
+geometry_msgs/Pose pose_left_app_s
+geometry_msgs/Pose pose_right
+geometry_msgs/Pose pose_right_app
+geometry_msgs/Pose pose_right_app_s
+int16 status
+int16 x1
+int16 y1
+int16 width
+int16 height
+float32 conf
+float32 depth
