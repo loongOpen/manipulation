@@ -1,0 +1,6 @@
+<launch>
+    <env name="LD_PRELOAD" value="/home/enpht/.local/lib/python3.8/site-packages/torch.libs/libgomp-804f19d4.so.1.0.0"/>
+    <node pkg="mocap2robot" type="vr_mocap_project.py" name="vr_mocap_project" output="screen">
+        <!-- Add any node-specific parameters here if needed -->
+    </node>
+</launch>
