@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="vrremote" type="webrtc_node.py" name="webrtc_node" output="screen">
+        <!-- Add any node-specific parameters here if needed -->
+    </node>
+</launch>
