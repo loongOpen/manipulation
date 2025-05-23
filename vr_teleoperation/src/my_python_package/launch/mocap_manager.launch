@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="mocap2robot" type="vr_mocap_project_udp.py" name="vr_mocap_project" output="screen">
+        <!-- Add any node-specific parameters here if needed -->
+    </node>
+</launch>
